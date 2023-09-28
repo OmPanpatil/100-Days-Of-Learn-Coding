@@ -3,6 +3,9 @@ package Day2;
 import java.util.Scanner;
 
 public class inputsum{
+    /**
+     * @param args
+     */
     public static void main(String[] args){
 
         try (Scanner sc = new Scanner(System.in)) {
