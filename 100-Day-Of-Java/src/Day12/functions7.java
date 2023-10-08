@@ -1,4 +1,10 @@
 public class functions7{
+    /**
+     * @param n
+     * @param r
+     * @param nmr
+     * @return
+     */
     public static int bico(int n, int r, int nmr){
         int fact_n = factorial(n);
         int fact_r = factorial(r);
@@ -7,8 +13,11 @@ public class functions7{
         return bico;
 
     }
+    private static int factorial(int n) {
+        return 0;
+    }
     public static void main(String[] args){
-        System.out.println(bico(5,2));
+        System.out.println(bico(5,2, 0));
     }
     
 }
