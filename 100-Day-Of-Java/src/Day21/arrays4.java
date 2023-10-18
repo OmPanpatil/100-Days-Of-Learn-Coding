@@ -1,4 +1,3 @@
-import java.util.*;
 //binary search
 
 public class arrays4{
